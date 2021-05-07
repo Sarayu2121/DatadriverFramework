@@ -69,13 +69,25 @@ public class TestBase {
 		    
 		}
 		
-		if(config.getProperty("browser").equals("chrome")) {
+		else if(config.getProperty("browser").equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\chromedriver.exe");
 		
 		   driver = new ChromeDriver();
 		   log.debug("Chrome Driver has Launched !!!");
 		
-		}
+		}else if(config.getProperty("browser").equals("firefox")) {
+			System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\geckodriver.exe");
+			
+			   driver = new FirefoxDriver();
+			   log.debug("Firefox Driver has Launched !!!");
+			
+			}else if(config.getProperty("browser").equals("opera")) {
+				System.setProperty("webdriver.opera.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\operadriver.exe");
+				
+				   driver = new OperaDriver();
+				   log.debug("opera Driver has Launched !!!");
+				
+				}
 			
 		driver.get(config.getProperty("testsiteurl"));
 		log.debug("Navigated to----"+config.getProperty("testsiteurl"));
