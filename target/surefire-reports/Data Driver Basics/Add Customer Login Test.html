@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>TestNG:  Add Customer Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Add Customer Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 06 18:09:45 EDT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10310 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: testcases.AddCustomerTest<br>Parameters: {Pcode=A38388, Fname=Sarayu, runmode=Y, Lname=Sirish, Alertmsg=Customer added successfully}<br/>
+<a href="#Output-57151543" onClick='toggleBox("Output-57151543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-57151543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-57151543">
+Customer added Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcases.AddCustomerTest@7a8fa663</td></tr>
+<tr>
+<td title='testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: testcases.AddCustomerTest<br>Parameters: {Pcode=S37727, Fname=Navya, runmode=Y, Lname=Sai, Alertmsg=Customer added successfully}<br/>
+<a href="#Output-1586289269" onClick='toggleBox("Output-1586289269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1586289269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1586289269">
+Customer added Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcases.AddCustomerTest@7a8fa663</td></tr>
+<tr>
+<td title='testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: testcases.AddCustomerTest<br>Parameters: {Pcode=Q373828, Fname=Vihaan, runmode=Y, Lname=Nunna, Alertmsg=Customer added successfully}<br/>
+<a href="#Output-1276666395" onClick='toggleBox("Output-1276666395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1276666395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1276666395">
+Customer added Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcases.AddCustomerTest@7a8fa663</td></tr>
+<tr>
+<td title='testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: testcases.AddCustomerTest<br>Parameters: {Pcode=W367777, Fname=Sireesha, runmode=Y, Lname=Jagan, Alertmsg=Customer added successfully}<br/>
+<a href="#Output-1910098693" onClick='toggleBox("Output-1910098693", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910098693" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910098693">
+Customer added Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testcases.AddCustomerTest@7a8fa663</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: testcases.AddCustomerTest<br>Parameters: {Pcode=E253666, Fname=Bindhu, runmode=N, Lname=Seethayya, Alertmsg=Customer added successfully}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test case as the Runmode for data set is NO
+	at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:37)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1367612102", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1367612102'><pre>org.testng.SkipException: Skipping the test case as the Runmode for data set is NO
+	at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</pre></div></td>
+<td>0</td>
+<td>testcases.AddCustomerTest@7a8fa663</td></tr>
+</table><p>
+</body>
+</html>

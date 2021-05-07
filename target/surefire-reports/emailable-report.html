@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Data Driver Basics</th></tr>
+<tr><td><a href="#t0">Bank Managet Login Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,878</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Add Customer Login Test</a></td><td class="num">4</td><td class="num attn">1</td><td class="num">0</td><td class="num">10,310</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Open Account Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">989</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num attn">1</th><th class="num">0</th><th class="num">14,177</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Data Driver Basics</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Managet Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.BankManagerLoginTest</td><td><a href="#m0">bankmanagerLoginTest</a></td><td rowspan="1">1620338982463</td><td rowspan="1">2531</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Add Customer Login Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">addCustomerTest</a></td><td rowspan="1">1620338995614</td><td rowspan="1">1</td></tr><tr><th colspan="4">Add Customer Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testcases.AddCustomerTest</td><td><a href="#m2">addCustomerTest</a></td><td rowspan="4">1620338990774</td><td rowspan="4">2424</td></tr><tr class="passedeven"><td><a href="#m3">addCustomerTest</a></td></tr><tr class="passedeven"><td><a href="#m4">addCustomerTest</a></td></tr><tr class="passedeven"><td><a href="#m5">addCustomerTest</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Open Account Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.OpenAccountTest</td><td><a href="#m6">openAccountTest</a></td><td rowspan="1">1620338995663</td><td rowspan="1">930</td></tr></tbody>
+</table>
+<h2>Bank Managet Login Test</h2><h3 id="m0">testcases.BankManagerLoginTest#bankmanagerLoginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><br>Verification Failure : expected [xyz] but found [abc]<br><br/><a target ="_blank" href = Thu_May_06_18_09_42_EDT_2021.jpg><img src =  Thu_May_06_18_09_42_EDT_2021.jpg height=200 width=200></img> </a><br/><br><br/><br></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Add Customer Login Test</h2><h3 id="m1">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Pcode=E253666, Fname=Bindhu, runmode=N, Lname=Seethayya, Alertmsg=Customer added successfully}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test case as the Runmode for data set is NO
+	at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:37)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Pcode=Q373828, Fname=Vihaan, runmode=Y, Lname=Nunna, Alertmsg=Customer added successfully}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Customer added Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Pcode=S37727, Fname=Navya, runmode=Y, Lname=Sai, Alertmsg=Customer added successfully}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Customer added Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Pcode=W367777, Fname=Sireesha, runmode=Y, Lname=Jagan, Alertmsg=Customer added successfully}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Customer added Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Pcode=A38388, Fname=Sarayu, runmode=Y, Lname=Sirish, Alertmsg=Customer added successfully}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Customer added Successfully</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Open Account Test</h2><h3 id="m6">testcases.OpenAccountTest#openAccountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Currency=Dollar, Customer=Sarayu Sirish}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

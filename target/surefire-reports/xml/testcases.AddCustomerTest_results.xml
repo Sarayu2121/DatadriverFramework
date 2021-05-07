@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Login Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="9.879">
+  <properties />
+  
+            <testcase name="addCustomerTest" time="0.0" classname="testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="addCustomerTest" time="2.424" classname="testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="2.355" classname="testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="2.278" classname="testcases.AddCustomerTest" />
+                <testcase name="addCustomerTest" time="2.821" classname="testcases.AddCustomerTest" />
+      
+</testsuite>
