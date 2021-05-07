@@ -14,6 +14,8 @@ public class BankManagerLoginTest extends TestBase {
 	@Test
 	public void bankmanagerLoginTest() throws InterruptedException, IOException {
 		
+		
+		//vrify is to verift the actual and expected
 		verifyEquals("abc", "xyz");
 		log.debug("Inside Login Test");
 		
