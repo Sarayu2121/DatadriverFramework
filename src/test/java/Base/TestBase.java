@@ -33,7 +33,7 @@ import utilities.TestUtil;
 public class TestBase {
 	
 	
-	//WebDriver then
+	//WebDriver 
 	//properties
 	//logs---Log4j dependency,Logs,Log4j.properties,Logger file
 	//reports
