@@ -47,6 +47,7 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public ExtentReports report = ExtentManager.getInstance();
 	public static ExtentTest test;
+	public static String browser;
 	
 	@BeforeSuite
 	public void setUp() throws IOException {
@@ -61,6 +62,18 @@ public class TestBase {
 			
 			OR.load(fis);
 			log.debug("OR file loaded !!!");
+			
+			if(System.getenv("browser")!=null)&& !System.getenv("browser").isEmpty()){
+				
+				browser = System.getenv("browser");
+				
+				
+			}else {
+				browser = config.getProperty("browser");
+				
+				
+			}
+			config.setProperty("browser", browser);
 		if(config.getProperty("browser").equals("edge")) {
 			
 			System.setProperty("Webdriver.edge.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\executables\\msedgedriver.exe");
