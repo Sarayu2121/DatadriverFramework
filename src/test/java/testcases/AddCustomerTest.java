@@ -32,7 +32,7 @@ public class AddCustomerTest extends TestBase {
 			//throw new SkipException("Skipping the test "+"addCustomerTest".toUpperCase()+"as the runmode as NO");
 			
 		//}
-		
+		//this is
 		if(!data.get("runmode").equals("Y")) {
 			throw new SkipException("Skipping the test case as the Runmode for data set is NO");
 		}
