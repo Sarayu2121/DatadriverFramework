@@ -24,7 +24,7 @@ public class AddCustomerTest extends TestBase {
 	
 	@Test(dataProviderClass=TestUtil.class,dataProvider ="dp")
 	
-	//here  if we need to give more Columns then we need to add all the coumns instead of that we can use Hashtable<String,String>
+	//here we need to give more Columns then we need to add all the coumns instead of that we can use Hashtable<String,String>
 	//public void addCustomerTest(String Fname,String Lname,String Pcode,String Alertmsg,String runmode) throws InterruptedException {
 		public void addCustomerTest(Hashtable<String,String> data) throws InterruptedException {
 		//if(!(TestUtil.isTestRunnale("addCustomerTest", excel))) {
